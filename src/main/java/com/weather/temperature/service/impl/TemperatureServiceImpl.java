@@ -21,7 +21,6 @@ public class TemperatureServiceImpl implements ITemperatureService{
 	private static final String LON = "LONGITUDE";
 	private static final String API_KEY = "API_KEY";
 	private static final String ZIP_CODE = "ZIP_CODE";
-//	private static final String API_ID = "a1e4246c8cb7f85155b71744841118fb";
 	private String BASIC_DETAILS_URL = "http://api.openweathermap.org/data/2.5/forecast?zip=" + ZIP_CODE
 			+ "&exclude=minutely,daily&cnt=24&appid=" + API_KEY;
 	private String TEMP_DETAILS_URL = "http://api.openweathermap.org/data/2.5/onecall?lat=" + LAT + "&lon=" + LON
