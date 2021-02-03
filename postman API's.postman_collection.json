@@ -1,0 +1,46 @@
+{
+	"id": "d8809f74-eaca-7568-1f6d-820988aa59c7",
+	"name": "postman API's",
+	"description": "",
+	"order": [
+		"3e6af2d2-2292-a6fe-1d54-127973c8be41"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1612367100446,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "3e6af2d2-2292-a6fe-1d54-127973c8be41",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8081/getTempDetails/94040",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d8809f74-eaca-7568-1f6d-820988aa59c7",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8081/getTempDetails/94040",
+			"description": "Get temperature details for Mountain view,US location",
+			"descriptionFormat": "html",
+			"time": 1612367107882,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{}"
+		}
+	]
+}
